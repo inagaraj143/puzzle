@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Demo - Upwork Project Show Text Above Image on Hover</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+
+    <body onload="myFunction()" style="margin:0;">
+        <div id="loader"></div>
+        <div style="display:none;" id="myDiv" class="animate-bottom">
+            <div class="team-area">
+                <div class="container-fluid1">
+                    <div class="grid-row first-row">
+                        <div class="puzzle puzzle-1"></div>
+                        <div class="puzzle puzzle-2"></div>
+                        <div class="puzzle puzzle-3"></div>
+                        <div class="puzzle puzzle-4"></div>
+                    
+                        <div class="puzzle puzzle-5 nopadding bg-image">
+                            <img src="./img/Layer-1.png" alt="">
+                        </div>
+                        <div class="puzzle puzzle-6 nopadding bg-image" >
+                            <div class="team-member">
+                                <img src="./img/Layer-2.png" alt="">
+                                <div class="team-text">
+                                    <h3>“I want him to come home so that we face these challenges together. I am 75 and he is 78, he is still my husband and my wish is that he comes back. As you can see, I never left our home, I am still waiting.”</h3>
+                                    <h4>Leader Whara</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-7 nopadding bg-image">
+                            <img src="./img/Layer-3.png" alt="">
+                        </div>
+                        <div class="puzzle puzzle-8"></div>
+                        <div class="puzzle puzzle-9"></div>
+                        <div class="puzzle puzzle-10"></div>
+                        <div class="puzzle puzzle-11"></div>
+                    </div>
+
+                    <div class="grid-row second-row">
+                        <div class="puzzle puzzle-1"></div>
+                        <div class="puzzle puzzle-2"></div>
+                        <div class="puzzle puzzle-3"></div>
+                        
+                        <div class="puzzle puzzle-4 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-4.png" alt="">
+                                <div class="team-text">
+                                    <h3>“Each time we speak about him, I get emotional and things get heavy. Maybe that’s why my life is not moving forward because one of us is missing and dad wants me to find him.”</h3>
+                                    <h4>Busani Mkhwananzi</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="puzzle puzzle-5 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-5.png" alt="">
+                                <div class="team-text">
+                                    <h3>“South, East, whatever, home is the best. If they are going through difficulties wherever they are, once they phone me, I will speak to the ancestors on their behalf.”</h3>
+                                    <h4>Isaac Mafisto Matanhire</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-6 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-6.png" alt="">
+                                <div class="team-text">
+                                    <h3>“South, East, whatever, home is the best. If they are going through difficulties wherever they are, once they phone me, I will speak to the ancestors on their behalf.”</h3>
+                                    <h4>Isaac Mafisto Matanhire</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-7 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-7.png" alt="">
+                                <div class="team-text">
+                                    <h3>“South, East, whatever, home is the best. If they are going through difficulties wherever they are, once they phone me, I will speak to the ancestors on their behalf.”</h3>
+                                    <h4>Isaac Mafisto Matanhire</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-8 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-8.png" alt="">
+                                <div class="team-text">
+                                    <h3>“South, East, whatever, home is the best. If they are going through difficulties wherever they are, once they phone me, I will speak to the ancestors on their behalf.”</h3>
+                                    <h4>Isaac Mafisto Matanhire</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-9"></div>
+                        <div class="puzzle puzzle-10"></div>
+                        <div class="puzzle puzzle-11"></div>
+                    </div>
+
+                    <div class="grid-row third-row">
+                    
+                        <div class="puzzle puzzle-1"></div>
+                        <div class="puzzle puzzle-2"></div>
+                        <div class="puzzle puzzle-3 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-9.png" alt="">
+                                <div class="team-text">
+                                    <h3>“Each time we speak about him, I get emotional and things get heavy. Maybe that’s why my life is not moving forward because one of us is missing and dad wants me to find him.”</h3>
+                                    <h4>Busani Mkhwananzi</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-4 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-10.png" alt="">
+                                <div class="team-text">
+                                    <h3>“Each time we speak about him, I get emotional and things get heavy. Maybe that’s why my life is not moving forward because one of us is missing and dad wants me to find him.”</h3>
+                                    <h4>Busani Mkhwananzi</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-5 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-11.png" alt="">
+                                <div class="team-text">
+                                    <h3>“Each time we speak about him, I get emotional and things get heavy. Maybe that’s why my life is not moving forward because one of us is missing and dad wants me to find him.”</h3>
+                                    <h4>Busani Mkhwananzi</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-6 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-12.png" alt="">
+                                <div class="team-text">
+                                    <h3>“Each time we speak about him, I get emotional and things get heavy. Maybe that’s why my life is not moving forward because one of us is missing and dad wants me to find him.”</h3>
+                                    <h4>Busani Mkhwananzi</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-7 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-13.png" alt="">
+                                <div class="team-text">
+                                    <h3>“Each time we speak about him, I get emotional and things get heavy. Maybe that’s why my life is not moving forward because one of us is missing and dad wants me to find him.”</h3>
+                                    <h4>Busani Mkhwananzi</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-8 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-14.png" alt="">
+                                <div class="team-text">
+                                    <h3>“Each time we speak about him, I get emotional and things get heavy. Maybe that’s why my life is not moving forward because one of us is missing and dad wants me to find him.”</h3>
+                                    <h4>Busani Mkhwananzi</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-9 nopadding bg-image">
+                            <div class="team-member">
+                                <img src="./img/Layer-15.png" alt="">
+                                <div class="team-text">
+                                    <h3>“Each time we speak about him, I get emotional and things get heavy. Maybe that’s why my life is not moving forward because one of us is missing and dad wants me to find him.”</h3>
+                                    <h4>Busani Mkhwananzi</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="puzzle puzzle-10"></div>
+                        <div class="puzzle puzzle-11"></div>
+
+
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </div>
+  
+        
+    <script>
+        function myFunction() {
+          myVar = setTimeout(showPage, 3000);
+        }
+    
+        function showPage() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("myDiv").style.display = "block";
+        }
+    
+        $( window ).on("load", function() {
+            setTimeout(showPage, 500);
+        });
+    </script>
+</body>
+</html>
+    
