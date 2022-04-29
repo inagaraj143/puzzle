@@ -71,7 +71,7 @@ body {
     font-family: Helvetica Neue 55;
 }
 
-.nopadding.bg-image {
+.nopadding1.bg-image {
     padding: 0 !important;
     margin: 0 !important;
     margin-left: 0;
@@ -123,6 +123,7 @@ p {
     left: 0;
     width: 100%;
     transition: all 0.5s ease 0s;
+    opacity: 0;
 }
 
 .team-member:hover .team-text {
@@ -132,6 +133,7 @@ p {
     flex-direction: column;
     align-items: unset;
     justify-content: center;
+    opacity: 1;
 }
 
 .team-member .team-text h3 {
@@ -140,6 +142,8 @@ p {
     letter-spacing: 1px;
     font-size: 9px;
     padding: 10px;
+    margin: 0;
+    overflow-y: auto;
 }
 
 
@@ -149,6 +153,8 @@ p {
     display: block;
     font-size: 9px;
     text-transform: uppercase;
+    padding: 0.5vw 0;
+    margin: 0;
 }
 
 .team-text p i {
@@ -202,6 +208,25 @@ p {
     background-position: top;
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+   
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+   
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: gray; 
+    border-radius: 10px;
+  }
+  
+  
 @media screen and (max-width:800px) {
 
     .team-member {
@@ -218,4 +243,7 @@ p {
     .grid-row {
         padding-top: 8vw;
     }
+}
+.mar-1{
+    margin-top: 1px;
 }
