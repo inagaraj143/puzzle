@@ -81,6 +81,7 @@ body {
 .team-area {
     margin-top: 0%;
     padding-top: 3vw;
+    padding-bottom: 6vw;
 }
 
 h3,
@@ -164,12 +165,7 @@ p {
 .header {
     width: 83%;
     margin: 0 auto;
-    font-size: 20px;
-    padding-top: 25vw;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 0;
+    padding-top: 2vw;
     font-size: 18px;
 }
 
